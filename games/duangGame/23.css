@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#gamecanvas {
+    background: #eeeeee;
+    display: block;
+    margin: 0 auto;
+}
+.center {
+    display: block;
+    text-align: center;
+    color: rgb(4, 207, 211);
+}
+#title {
+    display: block;
+    text-align: center;
+    color: rgb(100, 71, 204);
+}
+.fengexian {
+    display: block;
+    text-align: center;
+    color: rgb(100, 147, 235);
+}

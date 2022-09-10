@@ -1,0 +1,167 @@
+body {
+    background-repeat: no-repeat;
+    align-self: flex-start;
+}
+.center {
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.downloadImage {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.downloadImage:hover {
+    font-size: 15px;
+    color: rgb(245, 198, 198);
+}
+
+.biaoti {
+    color: #ffffff;
+    display: block;
+    text-align: center;
+}
+
+.games {
+    border-radius: 15px 15px 15px 15px;
+    background: #595b5c;
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+    box-shadow: 2px 2px 3px 3px #5465ff;
+    text-decoration: none;
+    color: black;
+}
+
+#games_01 {
+    display: none;
+    text-align: center;
+}
+
+.maintext {
+    color: rgba(144, 171, 206, 0.884);
+    text-decoration: none;
+    font-family: '微软雅黑';
+}
+
+.icondiv {
+    display: inline-block;
+    justify-content: center;
+    background-color: rgba(112, 104, 104, 0.678);
+    text-decoration: none;
+    border-radius: 15px 15px 15px 15px;
+    width: 80px;
+    height: 80px;
+}
+
+.justkonghangdiv {
+    display: inline-block;
+    justify-content: center;
+    height: 70px;
+    width: 50px;
+}
+
+.caption {
+    display: inline-block;
+    justify-content: center;
+}
+.inputer {
+    text-align: center;
+    outline-style: none;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 11px 0px;
+    width: 230px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "微软雅黑";
+    background-color: rgba(255, 255, 255, 0.836);
+    transition: 0.4s;
+}
+
+.inputer:hover {
+    width: 500px;
+}
+
+.search {
+    box-shadow: -6px -3px 7px 0px #959697c9;
+    background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+    background-color: #2dabf9;
+    border-radius: 7px;
+    border: 1px solid #0b0e07;
+    display: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 9px;
+    padding: 12px 21px;
+    text-decoration: none;
+    text-shadow: 0px 0px 50px #646627;
+    transition: 0.2s;
+    font-size: 8px;
+}
+
+.search:hover {
+    background: linear-gradient(to bottom, #e4e73fe8 5%, #ddeb5fd7 100%);
+    background-color: #cdfa06de;
+    border-radius: 15px;
+}
+
+.search:active {
+    position: relative;
+    top: 1px;
+}
+
+footer {
+    align-self: flex-end;
+}
+
+#cpr {
+    color: #8c8c8ce5;
+    display: inline-block;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#cprspan {
+    position: absolute;
+    bottom: 0px;
+    justify-content: center;
+    color: #878d92d8;
+}
+
+.inline {
+    display: inline-block;
+}
+
+hr {
+    display: block;
+    z-index: 99999999999;
+	background-color: black;
+}
+
+.hover {
+    background: #000; 
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+    display: block;
+    z-index: 2; 
+}

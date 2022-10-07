@@ -1,6 +1,7 @@
 body {
     background-repeat: no-repeat;
     align-self: flex-start;
+    background: url("http://bing.getlove.cn/bingImage")
 }
 .center {
     margin: 0 auto;

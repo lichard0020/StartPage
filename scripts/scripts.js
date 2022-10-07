@@ -28,7 +28,7 @@ function changeTime() {
     let timeNow = hours + ":" + minutes;
     document.querySelector("#biaoti").innerHTML = timeNow;
     let years = time.getFullYear();
-    let months = time.getMonth();
+    let months = time.getMonth()+1;
     let day = time.getDate();
     let weekNumber = time.getDay();
     let week;
@@ -48,8 +48,7 @@ function changeTime() {
         case 6: x = "星期六";
             break;
     }
-    let outputMonth = months+1
-    let dates = "今天是" + years + '年' + outputMonth + '月' + day + '日' + "," + x ;
+    let dates = "今天是" + years + '年' + Months + '月' + day + '日' + "," + x ;
     document.querySelector("#date").innerHTML = dates;
 }
 function intervalthings(){

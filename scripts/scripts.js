@@ -48,7 +48,7 @@ function changeTime() {
         case 6: x = "星期六";
             break;
     }
-    let dates = "今天是" + years + '年' + Month + '月' + day + '日' + "," + x ;
+    let dates = "今天是" + years + '年' + months + '月' + day + '日' + "," + x ;
     document.querySelector("#date").innerHTML = dates;
 }
 function intervalthings(){

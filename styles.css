@@ -171,7 +171,7 @@ body {
     background-image: url(https://api.dujin.org/bing/1920.php);
     background-size: cover;
 }
-body:hover {
+body::before {
     content: "";
     position: absolute;
     width: 100%;

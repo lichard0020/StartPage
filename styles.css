@@ -168,4 +168,5 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     align-self: start;
+    filter: brightness(70%);
 }

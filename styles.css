@@ -164,7 +164,7 @@ hr {
 }
 body {
     background-image: url(https://api.dujin.org/bing/1920.php);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     align-self: start;
 }

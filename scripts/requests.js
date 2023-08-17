@@ -6,7 +6,7 @@ httpRequest.send();
             var json = httpRequest.responseText;
             var pic = eval("(" + json + ")");
             console.log(pic);
-            document.body.style.backgroundImage = "url(" + "https://cn.bing.com" + pic.url + ")";
+            document.body.style.backgroundImage = "url(https://api.dujin.org/bing/1920.php)";
             docdument.querySelector(".downloadImage").href = "https://cn.bing.com"+pic.url;
         }
     }

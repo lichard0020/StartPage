@@ -168,5 +168,7 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     align-self: start;
-    filter: brightness(70%);
+}
+#hitokoto:hover {
+    background: #74b4dc87;
 }

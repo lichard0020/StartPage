@@ -57,3 +57,8 @@ function intervalthings(){
 }
 document.body.addEventListener("dblclick",dbonclick);
 setInterval(intervalthings, 50);
+var searchLink = "https://www.baidu.com/s?ie=utf-8&word=";
+function tz(){
+    let link=searchLink+document.querySelector(".inputer").value;
+    window.location.href = link;
+}

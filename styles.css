@@ -22,10 +22,8 @@
     color: #ffffff;
     display: block;
     text-align: center;
-    transition: 0.4s;
-}
-#biaoti:hover{
-    font-size: 75px;
+    animation: bigger 0.4s;
+    animation-fill-mode: forwards;
 }
 
 .games {

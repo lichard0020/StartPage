@@ -22,9 +22,10 @@
     color: #ffffff;
     display: block;
     text-align: center;
+    transition: 0.4s;
 }
 #biaoti:hover{
-    animation: bigger 0.6s;
+    font-size: 75px;
 }
 
 .games {

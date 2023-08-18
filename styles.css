@@ -18,11 +18,12 @@
     color: rgb(245, 198, 198);
 }
 
-.biaoti {
+#biaoti {
     color: #ffffff;
     display: block;
     text-align: center;
-    font-size: 18px;
+    animation: bigger 0.6s;
+
 }
 
 .games {
@@ -172,4 +173,12 @@ body {
 #hitokoto:hover {
     background: #74b4dc87;
     color: #ff5900;
+}
+@keyframes bigger {
+    0% {
+        font-size: 65px;
+    }
+    100% {
+        font-size: 80px;
+    }
 }

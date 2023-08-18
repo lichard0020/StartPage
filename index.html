@@ -9,14 +9,12 @@
     <link rel="stylesheet" href="./styles.css" type="text/css">
 </head>
 <body>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./scripts/requests.js"></script>
+    <script src="./scripts/scripts.js"></script>
+    <script src="./scripts/hitokoto.js"></script>
     <h1 id='biaoti' class="biaoti" style="font-size: 65px;">加载时间...</h1>
     <h5 id="date" class="biaoti">日期加载中...</h5>
-    <script>
-        function tz() {
-            let link ="https://www.baidu.com/s?ie=utf-8&word=" + document.querySelector(".inputer").value;
-            window.location.href = link;
-        }
-    </script>
     <div class="center" id="divFirst" style="display: none;">
         <input type="text" class="inputer" placeholder="Search" id="inputer"><br><br>
         <div class="center">
@@ -52,10 +50,6 @@
         </div>
     </div>
     <br><br><br>
-    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="./scripts/requests.js"></script>
-    <script src="./scripts/scripts.js"></script>
-    <script src="./scripts/hitokoto.js"></script>
 </body>
 
 </html>
